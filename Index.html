@@ -1,1 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <title>Go Out With Me? 💗</title>
+
+  <link rel="stylesheet" href="Valentine.css">
+</head>
+
+<body>
+
+  <!-- Floating hearts -->
+  <div class="hearts"></div>
+
+  <main class="card">
+
+    <!-- Progress lines -->
+    <div class="progress">
+      <span class="active"></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+    <!-- Cute illustration -->
+    <div class="characters">
+      <div class="bear white">
+        <div class="ear"></div>
+        <div class="face">
+          <span class="eye left"></span>
+          <span class="eye right"></span>
+          <span class="mouth">⌣</span>
+          <span class="blush"></span>
+        </div>
+        <div class="body"></div>
+        <div class="arm"></div>
+      </div>
+
+      <div class="bear brown">
+        <div class="ear"></div>
+        <div class="face">
+          <span class="eye left"></span>
+          <span class="eye right"></span>
+          <span class="mouth">×</span>
+          <span class="tear">💧</span>
+        </div>
+        <div class="body"></div>
+        <div class="arm"></div>
+      </div>
+
+      <div class="heart h1">♥</div>
+      <div class="heart h2">♥</div>
+    </div>
+
+    <!-- Question -->
+    <h1>
+      Will you go out with<br>
+      me?
+    </h1>
+
+    <p class="subtitle">
+      There is only one right answer.
+    </p>
+
+    <!-- Buttons -->
+    <div class="buttons">
+      <button id="yesBtn">Yes!</button>
+      <button id="noBtn">No</button>
+    </div>
+
+  </main>
+
+  <!-- Final message -->
+  <div id="success" class="success">
+    <div class="success-box">
+      <div class="big-heart">💗</div>
+
+      <h2>Yay! 🥰</h2>
+
+      <p>
+        I knew you would say yes! 💕
+      </p>
+
+      <button onclick="location.reload()">
+        Start Again
+      </button>
+    </div>
+  </div>
+
+  <script src="Valentine.js"></script>
+
+</body>
+</html>
